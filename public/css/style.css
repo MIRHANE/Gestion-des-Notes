@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.menu{
+    height: 100vh;
+    width: 20%;
+    position: relative;
+    padding-top: 1%;
+    border:3px solid slategray;
+}
+.menu ul {
+    padding: 0%;
+    margin-left: 10%;
+}
+.menu li{
+    list-style: none;
+    margin-top: 10%;
+}
+.menu li a{
+    color: dodgerblue;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu li span{
+    padding-left: 5%;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.menu .col0{
+padding-top: 10%;
+}
+.menu .col1{
+    padding-top: 40%;
+}
+.menu .col2{
+    padding-top: 40%;
+}
+.menu .col3{
+    padding-bottom: 10%;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+}
